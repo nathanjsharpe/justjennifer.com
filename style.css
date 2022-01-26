@@ -1,0 +1,49 @@
+body {
+  background: #ffffff;
+  margin: 30;
+  padding: 0;
+}
+a {
+  color: #2b2bf6;
+}
+#container {
+  width: 950px;
+  margin: 30;
+  padding: 40;
+  background: #dddddd;
+}
+#header {
+  width: 950px;
+  height: 150px;
+  margin: 30;
+  padding: 0;
+  border: 0;
+  background: #0050ff;
+}
+#sidebar {
+  width: 950px;
+  height: 280px;
+  margin: 30;
+  padding: 0;
+  border: 0;
+  float: left;
+  background: #00bbff;
+}
+#content {
+  width: 950px;
+  height: 00px;
+  margin: 30;
+  padding: 0;
+  border: 0;
+  float: left;
+  background: #dddddd;
+}
+#footer {
+  width: 950px;
+  height: 70px;
+  margin: 30;
+  padding: 0;
+  border: 0;
+  float: left;
+  background: #dddddd;
+}
