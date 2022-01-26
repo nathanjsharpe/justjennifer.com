@@ -1,49 +1,107 @@
-body {
-  background: #ffffff;
-  margin: 30;
-  padding: 0;
-}
 a {
   color: #2b2bf6;
 }
-#container {
-  width: 950px;
-  margin: 30;
-  padding: 40;
-  background: #dddddd;
-}
-#header {
-  width: 950px;
-  height: 150px;
-  margin: 30;
-  padding: 0;
-  border: 0;
-  background: #0050ff;
-}
-#sidebar {
-  width: 950px;
-  height: 280px;
-  margin: 30;
-  padding: 0;
-  border: 0;
-  float: left;
-  background: #00bbff;
-}
-#content {
-  width: 950px;
-  height: 00px;
-  margin: 30;
-  padding: 0;
-  border: 0;
-  float: left;
-  background: #dddddd;
+.container {
+  margin: 0 15px;
+  max-width: 1100px;
 }
 #footer {
-  width: 950px;
+  width: 100%;
   height: 70px;
-  margin: 30;
-  padding: 0;
+  padding: 30;
   border: 0;
   float: left;
   background: #dddddd;
+}
+.header-link {
+  position: relative;
+  width: 75%;
+  float: left;
+  margin: 10 0.5%;
+}
+.header-link:first-child {
+  margin-left: 0px;
+}
+.header-link > a {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  text-indent: -9999px;
+}
+.header-link > .header-text {
+  text-align: left;
+  font-size: 5em;
+  color: #21295a;
+  font-family: Lora, serif;
+}
+.header-link > .border-bar {
+  background: #21295a;
+  border: 0.2em solid #a5ade7;
+}
+.header-link > .border-bar.bar-lg {
+  height: 0.5em;
+  width: 100%;
+  margin-bottom: 0.4em;
+}
+.header-link > .border-bar.bar-sm {
+  height: 0.3em;
+  width: 100%;
+  margin-bottom: 0.4em;
+}
+.header-link > .bar-sm:first-child {
+  margin-bottom: 0px;
+}
+.header-img {
+  width: 100%;
+}
+
+h1 {
+  text-align: left;
+  font-size: 2rem;
+  color: #21295a;
+  font-family: Lora, serif;
+  font-weight: normal;
+  line-height: 1em;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+hr {
+  height: 0.15rem;
+  background: #21295a;
+  border: 0.1rem solid #a5ade7;
+  margin: 0.25rem 0;
+}
+
+hr.thick {
+  height: 0.3rem;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.product-sampler img:last-child {
+  margin-bottom: inherit;
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  hr {
+    height: 0.3rem;
+    border: 0.2rem solid #a5ade7;
+    margin: 0.5rem 0;
+  }
+
+  hr.thick {
+    height: 0.5rem;
+  }
 }
